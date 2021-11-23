@@ -1,0 +1,15 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	char input;
+	do
+	{
+		cout << "would you like to quit(Y / N) ? " << endl;
+		cin >> input;
+	}
+
+	while ((input != 'Y') && (input != 'N'));
+	return 0;
+}
